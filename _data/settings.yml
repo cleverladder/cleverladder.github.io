@@ -1,0 +1,30 @@
+# Site Settings
+title: Jekyll Bones
+description: 'Your unique, tell us about it here.'
+email: email@email.com
+
+#MENU ITEM LIST
+
+menu:
+- {name: About, url: '#about'}
+- {name: Work, url: '#work'}
+- {name: Contact, url: '#contact'}
+
+
+# Work Section
+projects:
+- {name: "#", folder: '#', file: '#'}
+
+# Social Links
+social:
+- {icon: 'twitter', link: '#'}
+- {icon: 'dribbble', link: '#'}
+- {icon: 'behance', link: '#'}
+- {icon: 'youtube', link: '#'}
+- {icon: 'facebook', link: '#'}
+
+
+
+# Change the site defaults here
+logo: logo.svg
+bg-img: hero-bg.jpg

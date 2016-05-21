@@ -1,0 +1,13 @@
+<header>
+ <img class="logo" src="/assets/img/{{ site.data.settings.logo }}">
+
+  <nav>
+  	{% for item in site.data.settings.menu %}
+  		<a href="{{ item.url }}"> {{ item.name }}</a>
+  	{% endfor %}
+  </nav>
+  
+  <h1>{{ site.data.settings.title }}</h1>
+  <p class="tagline">{{ site.data.settings.description }}</p>
+  
+</header>
