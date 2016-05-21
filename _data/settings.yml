@@ -11,6 +11,14 @@ menu:
 - {name: The Process, url: '#the-process'}
 - {name: Contact, url: '#contact'}
 
+# Services
+services:
+- {service: Responsive Design, fa-icon: 'fa-laptop', description: 'Every website will begin with a fully custom design. This design will reflect your vision of the website from our personal one-on-one meeting.'}
+- {service: Website Development, fa-icon: 'fa-cogs', description: 'We develop clean, stable, easy to use and upgradable WordPress websites that can be used for years to come.'}
+- {service: Google Analytics Built-in, fa-icon: 'fa-tachometer', description: 'Find out exactly how many people visit your site, where they came from, what pages of your site are most viewed, and what keywords on google people searched for you.'}
+- {service: Wordpress CMS, fa-icon: 'fa-wordpress', description: 'Our designs operate on the WordPress Content Management System. This allows you to easily update, maintain and change the content of your site on your own time.'}
+- {service: Wordpress Training, fa-icon: 'fa-graduation-cap', description: 'All website packages come with a one on one personal coaching session done over the phone or in person'}
+- {service: Search Engine Optimization, fa-icon: 'fa-search', description: 'What is SEO? It incorporates website structure and title tags along with the all meta-description of the site. Also, it includes matching the keywords you provide for us, which can be ranked.'}
 
 # Work Section
 projects:

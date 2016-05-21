@@ -1,0 +1,16 @@
+<section>
+
+	<h3 id="services">Services</h3>
+
+	<div class="service-sock">
+		{% for service in site.data.settings.services %}
+			<div class="service-unit">
+				<i class="fa {{ service.fa-icon }}"></i>
+				<div class="service-content">
+					<h4>{{ service.service }}</h4>
+					<p>{{ service.description }}</p>
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+</section>
