@@ -12,4 +12,5 @@ $( document ).ready(function() {
 
  $('.nav-link').click(function() {
    $(this).toggleClass('active');
+   $('#overlay').toggleClass('open');
   });
