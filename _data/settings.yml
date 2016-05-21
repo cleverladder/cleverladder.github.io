@@ -6,7 +6,7 @@ email: hello@cleverladder.com.com
 #MENU ITEM LIST
 
 menu:
-- {name: Services, url: '#services'}
+- {name: Services, url: '#about'}
 - {name: Our Work, url: '#work'}
 - {name: The Process, url: '#the-process'}
 - {name: Contact, url: '#contact'}

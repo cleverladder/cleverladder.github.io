@@ -1,12 +1,21 @@
 <header>
 	<div class="nav-sock">
-	 <img class="logo" src="/assets/img/{{ site.data.settings.logo }}">
+		<img class="logo" src="/assets/img/{{ site.data.settings.logo }}">
 
-	  <nav>
-	  	{% for item in site.data.settings.menu %}
-	  		<a href="{{ item.url }}"> {{ item.name }}</a>
-	  	{% endfor %}
-	  </nav>
+		<div class="nav-icon" id="toggle">
+			<span class="top"></span>
+			<span class="middle"></span>
+			<span class="bottom"></span>
+		</div>
+		<div class="overlay" id="overlay">
+		  <nav>
+		  	<ul>
+			  	{% for item in site.data.settings.menu %}
+			  		<li><a class="nav-link" href="{{ item.url }}"> {{ item.name }}</a></li>
+			  	{% endfor %}
+		  	</ul>
+		  </nav>
+		</div>
 	</div>
   <h1>{{ site.data.settings.description }}</h1>
   <a class="call-to-action" href="#contact">Get A Free Quote</a>
