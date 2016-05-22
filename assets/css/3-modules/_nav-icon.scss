@@ -65,6 +65,7 @@ $button-width: 35px;
   width: 100%;
   height: 0%;
   opacity: 0;
+  z-index: 200;
   visibility: hidden;
   transition: opacity .35s, visibility .35s, height .35s;
   overflow: hidden;
@@ -73,6 +74,7 @@ $button-width: 35px;
     opacity: .9;
     visibility: visible;
     height: 100%;
+    z-index: 50;
     
     li {
       animation: fadeInRight .5s ease forwards;

@@ -1,0 +1,42 @@
+#about-section
+	background:
+		color: $light-grey
+
+	.about-sock
+		max-width: 820px
+		margin: 0 auto
+		text-align: center
+		padding: 0 2%
+
+		.about-content
+			font-size: 1.5em
+			line-height: 1.8
+
+			strong
+				color: $dark-grey
+
+		.about-face
+			+position(relative)
+			border-radius: 50%
+			+size(150px)
+			-webkit-filter: grayscale(100%)
+			-moz-filter: grayscale(100%)
+			-o-filter: grayscale(100%)
+			filter: grayscale(100%)
+			+transition(800ms)
+			z-index: 0
+			&.hide
+				display: none
+
+			&:hover
+				-webkit-filter: grayscale(0%)
+				-moz-filter: grayscale(0%)
+				-o-filter: grayscale(0%)
+				filter: grayscale(0%)
+		h5
+			color: $text-color
+			font-size: 1.2rem
+			margin-bottom: 0
+			margin-top: 5px
+
+

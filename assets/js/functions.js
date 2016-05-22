@@ -8,9 +8,10 @@ $( document ).ready(function() {
  $('#toggle').click(function() {
    $(this).toggleClass('active');
    $('#overlay').toggleClass('open');
+   $('.about-face').toggleClass('hide');
   });
 
  $('.nav-link').click(function() {
-   $(this).toggleClass('active');
+   $("#toggle").toggleClass('active');
    $('#overlay').toggleClass('open');
   });
