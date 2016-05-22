@@ -8,8 +8,9 @@ base-url: 'localhost:4000'
 
 menu:
 - {name: Services, url: '#services'}
+- {name: The Process, url: '#process'}
+- {name: Case Studies, url: '#work'}
 - {name: Who we are, url: '#about'}
-- {name: The Process, url: '#the-process'}
 - {name: Contact, url: '#contact'}
 
 # Services
