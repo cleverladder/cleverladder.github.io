@@ -1,0 +1,28 @@
+#process-section
+	background:
+		color: $light-grey
+	
+	.process-sock
+		max-width: 1180px
+		margin: 0 auto
+		text-align: center
+		+clearfix()
+
+		.process-unit
+			width: 30%
+			display: inline-block
+			vertical-align: top
+			padding: 0 1.5%
+
+			[class^="icon-"]
+				svg
+					+size(100px)
+					display: block
+					margin: 0 auto
+
+			h4
+				color: $dark-grey
+				text-transform: uppercase
+			p
+				font-size: 1.2rem
+				line-height: 1.5

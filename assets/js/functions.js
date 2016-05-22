@@ -14,4 +14,5 @@ $( document ).ready(function() {
  $('.nav-link').click(function() {
    $("#toggle").toggleClass('active');
    $('#overlay').toggleClass('open');
+   $('.about-face').toggleClass('hide');
   });
