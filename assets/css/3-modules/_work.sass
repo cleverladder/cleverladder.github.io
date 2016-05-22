@@ -1,0 +1,128 @@
+.section-work
+	overflow-x: hidden
+	padding-bottom: 100px
+
+.project-title
+	&:hover
+		cursor: pointer
+		opacity: .75
+
+.work-shift
+	width: 200%
+	position: relative
+	left: 0%
+	+transition(all, 800ms)
+
+	&.slided
+		+transform(translate3d(-50%, 0, 0))
+
+.thumb-wrap, .work-wrap
+	width: 50%
+	float: left
+
+
+.thumb-sock
+	display: block
+	max-width: 960px
+	margin: 0 auto
+	+clearfix
+	overflow: hidden
+
+	label
+		position: relative
+		display: block
+		float: left
+		width: 33%
+		cursor: pointer
+		
+		.thumb-unit
+			display: block
+			overflow: hidden
+
+			img
+				display: block
+				max-width: 100%
+
+		@media screen and(max-width: 760px)
+			width: 50%			
+
+		.thumb-overlay
+			+position(absolute, -49% 0px null 0px)
+			height: 100%
+			background: fade-out($accent-color, 0.1)
+			text-align: center
+			+transition
+			+display(flex)
+			+align-items(center)
+			+justify-content(space-around)
+			+transform(rotateX(90deg))
+			+transform-origin(bottom bottom)
+			opacity: 0
+
+			strong
+				display: block
+				padding: 0px 20px
+				color: white
+				text-transform: uppercase
+				font-weight: 300
+				font-size: 24px
+				line-height: 1.2
+
+		&:hover .thumb-overlay
+			top: 0%
+			+transform(rotateX(0deg))
+			opacity: 1
+
+
+.work-sock
+	max-width: 600px
+	margin: 0 auto
+	position: relative
+
+	h4
+		color: $accent-color
+		font-weight: 300
+		text-transform: uppercase
+		font-size: 24px
+		line-height: 1.2
+		margin: 0 0 20px
+	img
+		max-width: 100%
+		margin-bottom: 20px
+
+	p
+		font-size: 1.2em
+		line-height: 1.5
+
+	.work-return
+		cursor: pointer
+		+position(absolute, -4px null null -60px)
+
+		svg
+			+size(40px)
+			opacity: .5
+
+			path
+				fill: $grey
+
+			&:hover
+				opacity: 1
+
+
+@media (max-width: 740px)
+	.work-sock
+		
+		.work-return
+			left: 0px
+		h4
+			margin-left: 60px
+
+
+
+
+
+
+
+
+
+
