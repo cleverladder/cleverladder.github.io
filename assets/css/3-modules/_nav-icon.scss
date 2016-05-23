@@ -9,13 +9,15 @@ $button-width: 35px;
 .nav-icon {
   position: fixed;
   top: 3.7%;
-  right: 2%;
+  right: 30px;
   height: $button-height;
   width: $button-width;
   cursor: pointer;
   z-index: 100;
   transition: opacity .25s ease;
-  
+  @media (max-width: 660px){
+    right: 20px;
+  }
   &:hover {
     opacity: .7;
   }
