@@ -7,6 +7,7 @@
 form
 	max-width: 520px
 	margin: 0 auto 50px
+	padding: 0 2.5%
 
 	input, textarea
 		border: 3px solid $accent-color
@@ -44,11 +45,18 @@ form
 			float: left
 			+box-sizing(border-box)
 			color: #fafafa
+			@media (max-width: 526px)
+				float: none
+				width: 100%
 
 			&:nth-child(1)
 				padding-right: 10px
+				@media (max-width: 526px)
+					padding: 0
 			&:nth-child(2)
 				padding-left: 10px
+				@media (max-width: 526px )
+					padding: 0
 
 	label
 		display: block
