@@ -36,3 +36,4 @@ projects:
 # Change the site defaults here
 logo: logo.svg
 bg-img: hero-bg.jpg
+favicon: fav.png
