@@ -51,7 +51,7 @@ function workBelt() {
   });
   $('.project-title').click(function() {
     $('.work-shift').removeClass("slided");
-    $('.work-sock').show();
+    $('.work-sock').hide(800);
   });
 
 }
