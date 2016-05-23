@@ -5,3 +5,4 @@ url: 'http://cleverladder.github.io'
 
 sass:
     sass_dir: assets/css
+    style: compressed
