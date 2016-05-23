@@ -1,24 +1,25 @@
 <section id="contact-section">
 	<h3 id="contact">Let's make something cool</h3>
 
-	<form action="https://formspree.io/{{ site.data.settings.email }}"
-	      method="POST">
+	<form id="contact-form">
 
 	    <div class="contact-info-group">
 		    <label><span>Your Name</span>
-		    	<input type="text" name="name">
+		    	<input required type="text" name="name">
 		  	</label>
 		    <label><span>Your Email</span>	  	
-		    	<input type="email" name="_replyto">
+		    	<input required type="email" name="_replyto">
 		  	</label>
 	  	</div>
 	    <label><span>Tell us about your project.</span>
 
-	    <textarea name="message"></textarea>
+	    <textarea required name="message"></textarea>
 	  	</label>
-	  	<input type="hidden" name="_next" value="/" />
 	  	<div class="submit-wrap">
-	    	<input type="submit" value="Send">
+	    	<input required id="form-submit" type="submit" value="Send">
 	  	</div>
 	</form>	
+	<div id="submit-success" class="remove"><p>Thank you for contacting us! We will be reaching out soon.</p>
+	</div>
+	<div id="submit-errors" class="remove"><p>It looks like there was an error submitting the form. Please check you have all fields filled out!</p></div>
 </section>
