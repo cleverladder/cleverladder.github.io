@@ -1,5 +1,7 @@
 # Build settings
 markdown: kramdown
 permalink: pretty
+url: 'http://cleverladder.github.io'
+
 sass:
     sass_dir: assets/css

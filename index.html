@@ -8,7 +8,16 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{{ site.data.settings.title }}</title>
+    <title>
+      {% if site.data.settings.seo-title %}
+        {{ site.data.settings.seo-title }}
+      {% else %}
+        {{ site.data.settings.title }}
+      {% endif %}
+    </title>
+    {% if site.data.setting.seo-description %}
+      <meta name="description" content="{{ page.description}}" />
+    {% endif %}
     <link rel="icon" type="image/png" href="assets/img/{{ site.data.settings.favicon }}" />
 
     <link rel="stylesheet" href="assets/css/main.css">  
