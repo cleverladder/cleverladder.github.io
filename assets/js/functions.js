@@ -20,7 +20,7 @@ $( document ).ready(function() {
   });
 
 
-// crollSoSmooth function is applied from the document ready function
+// ScrollSoSmooth function is applied from the document ready function
   function scrollSoSmooth (duration) {
     $('a[href^="#"]').on('click', function(event) {
 
