@@ -12,7 +12,7 @@ menu:
 - {name: Services, url: '../#services'}
 - {name: The Process, url: '../#process'}
 - {name: Our Work, url: '../#work'}
-- {name: Who we are, url: '../#about'}
+- {name: Pricing, url: '../pricing'}
 - {name: Contact, url: '../#contact'}
 
 # Services
