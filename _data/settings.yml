@@ -28,7 +28,7 @@ services:
 projects:
 - {name: I Put The Fork Down, folder: 'proj-1', file: 'work/proj-1.md'}
 - {name: Beerdid, folder: 'proj-2', file: 'work/proj-2.md'}
-- {name: The Grand Fir, folder: 'proj-3', file: 'work/proj-3.md'}
+- {name: Stutzman Excavating, folder: 'proj-3', file: 'work/proj-3.md'}
 - {name: Rock the South, folder: 'proj-4', file: 'work/proj-4.md'}
 - {name: Cheers ERP Solutions, folder: 'proj-5', file: 'work/proj-5.md'}
 - {name: Rock the Roadie, folder: 'proj-6', file: 'work/proj-1.md'}

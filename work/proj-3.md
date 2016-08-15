@@ -1,9 +1,9 @@
 ---
-title: The Grand Fir
+title: Stutzman Excavating
 ---
 
 <img class="reduce" src="assets/img/work/proj-3/logo.svg">
 
-A simple landing page for a new taproom coming to Nashville. Not always are you ready for a full fledged website. This was the our solution.
+Stutzman Excavating of Albany, Oregon came to us with a need for a simple website. We had the perfet solution that fit their needs. They chose our <a href="/pricing">$129/mo plan</a>.   
 
-<a class="button" href="http://www.thegrandfir.com" target="_blank">Visit Website</a>
+<a class="button" href="http://www.stutzmanexcavating.com" target="_blank">Visit Website</a>
