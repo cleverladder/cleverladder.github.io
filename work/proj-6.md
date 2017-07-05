@@ -1,15 +1,17 @@
 ---
-title: Rock the Roadie
+title: Outcry Festival
 ---
-![Rock the Roadie](assets/img/work/proj-6/logo.svg)
+![Outcry Festival](assets/img/work/proj-6/logo.svg)
 
-***“Somebody Has To Do It”***
 {: .center}
 
-![Rock the Roadie](assets/img/work/proj-6/thumb.jpg)
+![Outcry Festival](assets/img/work/proj-6/thumb.jpg)
 
-Imagine a room filled with 1000 people all trying to figure out a problem.  999 of them will say ” I don’t know what’s wrong” or “It’s not my job”.  The one who stands up and says “Give me a soldering iron, (6) 30 amp three pin twist locks, bailing wire, duct tape, and a pot of black coffee” and ten minutes later is sitting cross legged on the floor sipping his coffee, with a smile, thinking ‘I wonder how much time I have before they’ll need me again’. When somebody has to do it, there’s only one in a thousand that can, That’s a Roadie.
+OUTCRY began in 2015 with a heart to encourage the local church. Since then they have seen almost half a million people attend, and continues to bring the message that the best days of the church are ahead!
+
+This festival is a new expression of the OUTCRY tour. We want to see people built up and encouraged as they attend OUTCRY, knowing that whatever their ministry looks like, it is significant in the kingdom of God.
 
 
 
-<a class="button" href="http://www.rocktheroadie.com" target="blank">Visit Website</a>
+<a class="button" href="http://www.outcryfestival.com.com" target="_
+blank">Visit Website</a>
